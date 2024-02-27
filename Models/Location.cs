@@ -2,7 +2,7 @@
 {
     public class Location
     {
-        public int locationId { get; set; }
+        public int LocationId { get; set; }
         public string City { get; set; }
         public ICollection<Theater> Theaters { get; set;}
     }

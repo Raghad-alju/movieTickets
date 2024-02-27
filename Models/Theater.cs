@@ -2,10 +2,11 @@
 {
     public class Theater
     {
-        public int theaterId { get; set; }
-        public int expID { get; set; }
-        public string City { get; set; }
-        public ICollection<Movie> Movies { get; set; }
+        public int TheaterId { get; set; }
+        public string TheaterName { get; set; }
+        public Location Location { get; set; }
+        public ICollection<MovieTheater> MovieTheaters { get; set; }
+
 
     }
 }

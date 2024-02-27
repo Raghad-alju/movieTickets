@@ -2,8 +2,9 @@
 {
     public class Ticket
     {
-        public int ticketId { get; set; }
+        public int TicketId { get; set; }
+        public string TicketNumber { get; set; }
         public string Date { get; set; }
-        public string expId { get; set; }
+        public Experience Experience { get; set; }
     }
 }
